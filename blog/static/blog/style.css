@@ -1,0 +1,139 @@
+body {
+    background: #26242f;
+    color: #333333;
+    margin-top: 5rem;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: wheat;
+  }
+
+  ul {
+    margin: 0;
+  }
+
+  .bg-steel {
+    background-color: black;
+  }
+
+  .site-header .navbar-nav .nav-link {
+    color: #cbd5db;
+  }
+
+  .site-header .navbar-nav .nav-link:hover {
+    color: #ffffff;
+  }
+
+  .site-header .navbar-nav .nav-link.active {
+    font-weight: 500;
+  }
+
+  .content-section {
+    background: #ffffff;
+    padding: 10px 20px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    margin-bottom: 20px;
+  }
+
+  .article-title {
+    color: #444444;
+  }
+
+  a.article-title:hover {
+    color: #428bca;
+    text-decoration: none;
+  }
+
+  .article-content {
+    white-space: pre-line;
+  }
+
+  .article-img {
+    height: 65px;
+    width: 65px;
+    margin-right: 16px;
+  }
+
+  .article-metadata {
+    padding-bottom: 1px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid #e3e3e3
+  }
+
+  .article-metadata a:hover {
+    color: #333;
+    text-decoration: none;
+  }
+
+  .article-svg {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+  }
+
+  .account-img {
+    height: 125px;
+    width: 125px;
+    margin-right: 20px;
+    margin-bottom: 16px;
+  }
+
+  .account-heading {
+    font-size: 2.5rem;
+  }
+
+  .comment-section {
+    display: block;
+    border-radius: 11px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto
+  }
+
+  .name {
+    font-size: 20px
+  }
+
+  .comment-content {
+    font-size: 14px
+  }
+
+  .comments {
+    color: blue
+  }
+
+  #comment-form{
+    margin: 3rem auto;
+    width: 90%;
+    max-width:40rem;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    padding: 1rem;
+  }
+
+  .form-control{
+    margin-bottom:1rem;
+  }
+  .form-control label{
+    font-weight:bold;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  .form-control input,
+  .form-control textarea{
+    display: block;
+    width:100%;
+    font:inherit;
+    padding: 0.25rem;
+    border-radius:6px;
+  }

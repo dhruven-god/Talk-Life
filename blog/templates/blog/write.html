@@ -1,0 +1,16 @@
+{% extends "blog/base.html" %}
+{% block content %}
+<form method="POST" id="comment-form">
+    {% csrf_token %}
+    <div class="form-group">
+
+        {{form.as_p}}
+    </div>
+    <button class="btn btn-primary" style="float:right">Post</button><br /><br />
+</form>
+
+<script>
+    var username = {{user.id}}
+    document.getElementById("name").value = username; 
+</script>
+{% endblock %}
